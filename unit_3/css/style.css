@@ -1,20 +1,21 @@
 body {
 	font-family: 'Quicksand', sans-serif;
-	background: #63588C;
-	color: #FFE1BB;
+	background: #FEDFD3;
+	color: #6E466E;
 }
 
 h1 {
 	font-weight: 700;
 	font-size: 48px;
+	color: #F4885F;
 }
 
 a {
-	color: #EFA25D;
+	color: #CE8990;
 }
 
 #slogan {
-	background: url("images/sky.png");
+	background: url("sky.png");
 	background-size: cover;
 	padding: 200px;
 	color: white;
