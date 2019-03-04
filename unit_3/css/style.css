@@ -1,0 +1,24 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background: #63588C;
+	color: #FFE1BB;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+a {
+	color: #EFA25D;
+}
+
+#slogan {
+	background: url("images/sky.png");
+	background-size: cover;
+	padding: 200px;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 500;
+}
