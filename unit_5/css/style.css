@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body {
+	font-family: 'Esteban', serif;
+	background: #587533;
+	color: #FBF6D7;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	letter-spacing: -0.08em;
+	color: #F4885F;
+}
+
+a {
+	color: #CE8990;
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+	/*background: url('../images/calm.jpg') #D7C03E;
+	background-size: cover;
+	padding: 5em;
+	color: white;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;*/
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	/*background: #FBF6D7;
+	font-size: 24px;*/
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
