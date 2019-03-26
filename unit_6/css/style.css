@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body {
+	font-family: 'Esteban', serif;
+	background: #587533;
+	color: #FBF6D7;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	letter-spacing: -0.08em;
+	color: #F4885F;
+}
+
+a:link {
+    font-family: 'Esteban', serif;
+	color: #F6D06F;
+	text-decoration: none;
+} 
+
+a:visited {
+    font-family: 'Esteban', serif;
+	color: #FBF6D7;
+	text-decoration: none;
+}
+
+a:hover {
+    font-family: 'Esteban', serif;
+	color: #2D431C;
+	text-decoration: none;
+}
+
+a:active {
+    font-family: 'Esteban', serif;
+	color: #FAF9D9;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+a:link#home {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: -0.08em;
+	color: #D8C13B;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+} 
+
+a:visited#home {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: -0.08em;
+	color: #D8C13B;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+}
+
+a:hover#home {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: -0.08em;
+	color: #FAF9D9;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+	background-color: #D8C13B;
+}
+
+a:active#home {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: -0.08em;
+	color: #2D431C;
+	float: left;
+	padding: 4px;
+	text-decoration: none;
+}
+
+a:link.navlink {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.08em;
+	color: #2D431C;
+	float: right;
+	padding: 8px;
+	text-decoration: none;
+	margin: 2px 24px;
+} 
+
+a:visited.navlink {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.08em;
+	color: #D8C13B;
+	float: right;
+	padding: 8px;
+	text-decoration: none;
+	margin: 2px 24px;
+}
+
+a:hover.navlink {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.08em;
+	color: #FAF9D9;
+	float: right;
+	padding: 8px;
+	text-decoration: none;
+	background-color: #D8C13B;
+	margin: 2px 24px;
+}
+
+a:active.navlink {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.08em;
+	color: #2D431C;
+	float: right;
+	padding: 8px;
+	text-decoration: none;
+	margin: 2px 24px;
+}
+
+div {
+	/*background-color: #FFE2B8;*/
+    /*border: 1px black solid;*/
+    /*padding: 20px;*/
+}
+
+section {
+	/*background-color: #FFE2B8;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+#one {
+	/*background-color: #FFB7CF;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+
+#left {
+	/*background-color: #E582A2;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+	float: left;
+	width: 45%;
+	margin: auto;
+}
+
+#right {
+	/*background-color: #E55B88;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+	float: right;
+	width: 45%;
+}
+
+header {
+	background: url('../images/calm.jpg') #D7C03E;
+	background-size: cover;
+	padding: 5em;
+	color: white;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	background-color: #FFED74;
+    /*border: 1px black solid;*/
+    padding: 10%;
+}
+
+nav {
+	background: #FBF6D7;
+	font-size: 24px;
+	/*background-color: #E8C66A;*/
+    /*border: 1px black solid;*/
+    padding: 8px;
+}
+
+article {
+	/*background-color: #E89C6C;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    margin: auto;
+}
+
+aside {
+	/*background-color: #FFC675;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+.asideimage {
+	margin: auto;
+	width: 90%;
+}
+
+footer {
+	/*background-color: #FF957E;*/
+    /*border: 1px black solid;*/
+    text-align: center;
+    padding: 20px;
+}
